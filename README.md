@@ -37,6 +37,12 @@ Users can upload their CSV/Excel files, visualize them, generate insights, and �
 
 The system uses **LangChain’s Pandas Agent** combined with **Hugging Face’s Flan-T5 / TabT5** models to convert your natural language queries into pandas operations and descriptive insights.
 
+
+## 🖼️ Screenshot Uploads
+
+<img width="1470" height="789" alt="Homepage" src="https://github.com/user-attachments/assets/72ec6160-8c93-4381-b9ed-d9a58ee7be5a" />
+<img width="1470" height="789" alt="EDA" src="https://github.com/user-attachments/assets/64297f36-8b9f-41e9-bf69-475a277cc0d7" />
+
 ---
 
 ## 💡 Motivation
@@ -259,14 +265,6 @@ Both layers combine for **LLM-driven reasoning** on tabular data.
 | **Box Plot**     | Detect spread and outliers.                          |
 
 ---
-
-## 🖼️ Screenshot Uploads
-
-To showcase your application visuals in the README:
-
-1. Create a new folder named `docs/` in your project root.
-2. Add screenshots (PNG/JPG) for sections like app header, EDA summary, and chat interface.
-3. Reference them in the README using Markdown syntax:
 
 ```markdown
 ![App Header](docs/header.png)
