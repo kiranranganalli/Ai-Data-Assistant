@@ -4,7 +4,7 @@
 
 ---
 
-## 📒 Table of Contents
+## 🗒️ Table of Contents
 
 1. [Overview](#overview)
 2. [Motivation](#motivation)
@@ -18,18 +18,19 @@
 10. [Chat with Your Dataset](#chat-with-your-dataset)
 11. [How the AI Works](#how-the-ai-works)
 12. [Data Visualization Guide](#data-visualization-guide)
-13. [SQLite Integration](#sqlite-integration)
-14. [Security & Environment Variables](#security--environment-variables)
-15. [Example Outputs](#example-outputs)
-16. [Use Cases](#use-cases)
-17. [Future Enhancements](#future-enhancements)
-18. [Contributing](#contributing)
-19. [License](#license)
-20. [Author](#author)
+13. [Screenshot Uploads](#screenshot-uploads)
+14. [SQLite Integration](#sqlite-integration)
+15. [Security & Environment Variables](#security--environment-variables)
+16. [Example Outputs](#example-outputs)
+17. [Use Cases](#use-cases)
+18. [Future Enhancements](#future-enhancements)
+19. [Contributing](#contributing)
+20. [License](#license)
+21. [Author](#author)
 
 ---
 
-## 🧬 Overview
+## 🧭 Overview
 
 **AI Assistant for Data Science** is an **AI-powered EDA and conversational analytics app** that transforms how data professionals explore datasets.
 Users can upload their CSV/Excel files, visualize them, generate insights, and — most importantly — **ask questions about their data directly through a chatbot interface**.
@@ -76,7 +77,7 @@ This fusion of EDA + Conversational AI bridges the gap between data science, ana
 
 ---
 
-## 👷️‍🔧 Architecture
+## 🏗️ Architecture
 
 ```
  ┌────────────────────────────┐
@@ -134,7 +135,7 @@ cd AI_Data_Assistant
 ```bash
 python3 -m venv venv
 source venv/bin/activate     # macOS / Linux
-venv\Scripts\activate        # Windows
+venv\\Scripts\\activate        # Windows
 ```
 
 ### 3. Install Requirements
@@ -223,7 +224,7 @@ Examples:
 Under the hood:
 
 * LangChain interprets queries → executes pandas code.
-* Hugging Face (Flan‑T5 / TabT5) summarizes and formats output.
+* Hugging Face (Flan-T5 / TabT5) summarizes and formats output.
 * Chat history updated for contextual conversation.
 
 Result: A **conversational interface for structured data**.
@@ -242,9 +243,9 @@ df.groupby('city')['income'].mean().sort_values(ascending=False).head(5)
 
 ### 2. Hugging Face API
 
-Generates human‑readable responses and contextual insights.
+Generates human-readable responses and contextual insights.
 
-Both layers combine for **LLM‑driven reasoning** on tabular data.
+Both layers combine for **LLM-driven reasoning** on tabular data.
 
 ---
 
@@ -256,6 +257,24 @@ Both layers combine for **LLM‑driven reasoning** on tabular data.
 | **Bar Chart**    | Frequency of categorical values.                     |
 | **Histogram**    | Value distribution overview.                         |
 | **Box Plot**     | Detect spread and outliers.                          |
+
+---
+
+## 🖼️ Screenshot Uploads
+
+To showcase your application visuals in the README:
+
+1. Create a new folder named `docs/` in your project root.
+2. Add screenshots (PNG/JPG) for sections like app header, EDA summary, and chat interface.
+3. Reference them in the README using Markdown syntax:
+
+```markdown
+![App Header](docs/header.png)
+![EDA Summary](docs/summary.png)
+![Chat Interface](docs/chat.png)
+```
+
+This will allow GitHub to render the screenshots directly within your README for better visual presentation.
 
 ---
 
